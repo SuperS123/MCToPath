@@ -5,7 +5,7 @@ MCToPath is a quick, simple program to add a %minecraft% variable so you don't h
 ## Installation
 
 ### Method 1:
-Go to [Release 1.0](https://github.com/SuperS123/MCToPath/releases/tag/1.0) and download the .exe file. Then refer to [Usage](#usage)
+Go to [Release 1.1](https://github.com/SuperS123/MCToPath/releases/tag/1.1) and download the .exe file. Then refer to [Usage](#usage)
 
 ### Method 2:
 Run the following in cmd
