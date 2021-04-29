@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Security.Principal;
 
@@ -27,10 +27,11 @@ namespace ConsoleApplication1
                 var name = "minecraft";
                 var scope = EnvironmentVariableTarget.User;
                 var newValue  = "%APPDATA%\\.minecraft";
-                var name = "minecraft";
-                var scope = EnvironmentVariableTarget.Machine;
-                var newValue  = "%APPDATA%\\.minecraft";
-                Environment.SetEnvironmentVariable(name, newValue, scope);
+				Environment.SetEnvironmentVariable(name, newValue, scope);
+                var name2 = "minecraft";
+                var scope2 = EnvironmentVariableTarget.Machine;
+                var newValue2  = "%APPDATA%\\.minecraft";
+				Environment.SetEnvironmentVariable(name2, newValue2, scope2);	
                 Console.WriteLine("Completed Task!");
                 System.Threading.Thread.Sleep(3000);
                 Console.WriteLine("Restarting Computer to apply changes");
