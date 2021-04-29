@@ -27,6 +27,9 @@ namespace ConsoleApplication1
                 var name = "minecraft";
                 var scope = EnvironmentVariableTarget.User;
                 var newValue  = "%APPDATA%\\.minecraft";
+                var name = "minecraft";
+                var scope = EnvironmentVariableTarget.Machine;
+                var newValue  = "%APPDATA%\\.minecraft";
                 Environment.SetEnvironmentVariable(name, newValue, scope);
                 Console.WriteLine("Completed Task!");
                 System.Threading.Thread.Sleep(3000);
